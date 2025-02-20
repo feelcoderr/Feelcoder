@@ -101,16 +101,16 @@ export const SKILLS = {
 export const PROJECTS = [
   {
     name: "Bizcivitas",
-    image: "/projects/airbnb.webp",
+    image: "/projects/bizcivitas.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Bussiness networking and Event management web-app",
     gradient: ["#F14658", "#DC2537"],
     url: "https://bizcivitas.com",
-    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socket.io", ],
+    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socket.io"],
   },
   {
     name: "JadenX",
-    image: "/projects/medium.webp",
+    image: "/projects/thejadenx.png",
     blurImage: "/projects/blur/medium-blur.webp",
     description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
     gradient: ["#FFA62E", "#EA4D2C"],
@@ -119,7 +119,7 @@ export const PROJECTS = [
   },
   {
     name: "QAonTop",
-    image: "/projects/inshorts.webp",
+    image: "/projects/qaontop.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
       "Conversational Voice Controlled React News Application using Alan AI 🎙",
@@ -129,7 +129,7 @@ export const PROJECTS = [
   },
   {
     name: "Passdn",
-    image: "/projects/tesla.webp",
+    image: "/projects/passdn.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],
@@ -138,7 +138,7 @@ export const PROJECTS = [
   },
   {
     name: "Earthlike",
-    image: "/projects/tesla.webp",
+    image: "/projects/earthlike.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],
@@ -147,7 +147,7 @@ export const PROJECTS = [
   },
   {
     name: "Bynbe",
-    image: "/projects/tesla.webp",
+    image: "/projects/bynbe.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],
@@ -156,7 +156,7 @@ export const PROJECTS = [
   },
   {
     name: "Visual Varta",
-    image: "/projects/tesla.webp",
+    image: "/projects/visualvarta.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],
@@ -165,7 +165,7 @@ export const PROJECTS = [
   },
   {
     name: "Itolec Surfaces",
-    image: "/projects/tesla.webp",
+    image: "/projects/visualvarta.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "A Tesla React Native App 🏎️",
     gradient: ["#142D46", "#2E4964"],

@@ -60,8 +60,8 @@ const About1 = ({ clientHeight }) => {
             scalable and performant apps.{" "}
           </span>
           <span className="about-2 leading-tight">
-            I take responsibility to craft a good user experience using modern
-            frontend architecture.{" "}
+            I take responsibility to make you idea to reality by developing
+            scallable products.{" "}
           </span>
         </h1>
       </div>
