@@ -71,12 +71,12 @@ body {
 }
 
 ::-moz-selection {
-  background-color: theme("colors.purple");
+  background-color: theme("colors.green");
   color: #fff;
 }
 
 ::selection {
-  background-color: theme("colors.purple");
+  background-color: theme("colors.green");
   color: #fff;
 }
 
@@ -253,10 +253,7 @@ input[type="checkbox"] {
         0,
         0,
         0.8
-      ); //check it out later when more text is on the background to change the opacity
-      // @supports not (backdrop-filter: blur(0.625rem)) {
-      //   background: rgba(0, 0, 0, 0.8);
-      // }
+      ); 
 
       > div {
         max-width: 90vw;

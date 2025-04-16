@@ -32,12 +32,15 @@ const Header = ({ children }) => {
     <nav className="w-full fixed top-0 py-8 z-50 select-none bg-gradient-to-b from-black shadow-black transition-all duration-300">
       <div className="flex justify-between section-container">
         <a href="#home" className="link">
-          <Image
+          {/* <Image
             src="/logo-1.png"
             alt="Logo - Feelcoder"
             width={250}
             height={90}
-          />
+          /> */}
+          <h1 className="font-medium text-2xl md:text-3xl text-center">
+            Feelcoder
+          </h1>
         </a>
         <div className="outer-menu relative flex items-center gap-8 z-[1]">
           <SoundBar />

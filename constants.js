@@ -104,73 +104,82 @@ export const PROJECTS = [
     image: "/projects/bizcivitas.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Bussiness networking and Event management web-app",
-    gradient: ["#F14658", "#DC2537"],
+    gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://bizcivitas.com",
-    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socket.io"],
+    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socketio"],
+  },
+  {
+    name: "Startup Grants",
+    image: "/projects/startupgrants.png",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "Portal to find and apply into government grants.",
+    gradient: ["#4776E6", "#8E54E9"],
+    url: "https://startupgrants.in",
+    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socketio"],
   },
   {
     name: "JadenX",
     image: "/projects/thejadenx.png",
     blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
+    description: "Agency website using NextJS + Tailwind CSS ✍🏻",
+    gradient: ["#F14658", "#DC2537"],
     url: "https://thejadenx.com/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    tech: ["typescript", "nextjs", "tailwindcss", "nodejs", "mongoDb"],
   },
   {
     name: "QAonTop",
     image: "/projects/qaontop.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+    description: "Service Agency website with 66+ optimised dynamic pages 🎙",
     gradient: ["#000066", "#6699FF"],
     url: "https://qaontop.com",
-    tech: ["react", "chakra-ui", "alan"],
+    tech: ["Wordpress", "php", "mysql"],
   },
   {
     name: "Passdn",
     image: "/projects/passdn.png",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    description:
+      "Informative website for startup to showcase their products 🏎️",
     gradient: ["#142D46", "#2E4964"],
     url: "https://passdn.com",
-    tech: ["react"],
+    tech: ["react", "tailwindcss", "nodejs", "mongoDb"],
   },
   {
     name: "Earthlike",
     image: "/projects/earthlike.png",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
+    description: "Ecommerce platform using wordpress. 🏎️",
+    gradient: ["#11998E", "#38EF7D"],
     url: "https://www.earthlike.org/",
-    tech: ["react"],
+    tech: ["Wordpress", "php", "mysql"],
   },
   {
     name: "Bynbe",
     image: "/projects/bynbe.png",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
+    description: "Morden UI Ecommerce Store for Brand 🏎️",
+    gradient: ["#FF416C", "#FF4B2B"],
     url: "https://bynbe.com/",
-    tech: ["react"],
+    tech: ["Wordpress", "php", "mysql"],
   },
   {
     name: "Visual Varta",
     image: "/projects/visualvarta.png",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
+    description: "Creative website for Video and photo studio 🏎️",
+    gradient: ["#654EA3", "#EAAFC8"],
     url: "https://visualvarta.com",
-    tech: ["react"],
+    tech: ["react", "tailwindcss", "nodejs", "mongoDb"],
   },
   {
     name: "Itolec Surfaces",
-    image: "/projects/visualvarta.png",
+    image: "/projects/itolecsurfaces.png",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
+    description: "Informative website for Slab Company 🏎️",
+    gradient: ["#1A2980", "#26D0CE"],
     url: "https://itolecsurfaces.com/",
-    tech: ["react"],
+    tech: ["Wordpress", "php", "mysql"],
   },
 ];
 
@@ -219,89 +228,158 @@ export const PROJECTS = [
 //   },
 // ];
 
+// export const WORK_CONTENTS = {
+//   DUKAAN: [
+//     {
+//       title: "Dukaan",
+//       description:
+//         "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Revolutionizing commerce, one click at a time
+//         </div>
+//       ),
+//     },
+//     {
+//       title: "Transformation",
+//       description:
+//         "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Senior Frontend Engineer
+//         </div>
+//       ),
+//     },
+//     {
+//       title: "Evolution",
+//       description:
+//         "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Frontend Engineer
+//         </div>
+//       ),
+//     },
+//     {
+//       title: "Optimization",
+//       description:
+//         "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Frontend Engineer Intern
+//         </div>
+//       ),
+//     },
+//   ],
+//   AVIATE: [
+//     {
+//       title: "Aviate",
+//       description:
+//         "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Finding the right job isn&apos;t fate, it&apos;s navigation
+//         </div>
+//       ),
+//     },
+//     {
+//       title: "Innovation",
+//       description:
+//         "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Frontend Developer Intern
+//         </div>
+//       ),
+//     },
+//   ],
+//   SPACENOS: [
+//     {
+//       title: "Spacenos",
+//       description:
+//         "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           We build apps that solve problems for the next billion people
+//         </div>
+//       ),
+//     },
+//     {
+//       title: "Trailblazing",
+//       description:
+//         "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+//       content: (
+//         <div className="h-full w-full flex items-center justify-center text-white px-4">
+//           Web Developer Intern
+//         </div>
+//       ),
+//     },
+//   ],
+// };
+
 export const WORK_CONTENTS = {
-  DUKAAN: [
+  REVEATION: [
     {
-      title: "Dukaan",
+      title: "Reveation",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "Reveation is a technology company specializing in custom software solutions for businesses across various industries.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
-        </div>
-      ),
-    },
-    {
-      title: "Transformation",
-      description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Evolution",
-      description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
-        </div>
-      ),
-    },
-  ],
-  AVIATE: [
-    {
-      title: "Aviate",
-      description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
+          Transforming businesses through tailored technology solutions
         </div>
       ),
     },
     {
       title: "Innovation",
       description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+        "As a Fullstack Developer Intern, I contributed to multiple projects utilizing Node.js, ReactJS, MySQL, and Tailwind CSS. I developed responsive user interfaces while simultaneously implementing server-side logic and database integrations. Through this hybrid work arrangement, I gained comprehensive experience in the full development lifecycle and honed my skills in both frontend and backend technologies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Fullstack Developer Intern
         </div>
       ),
     },
   ],
-  SPACENOS: [
+  PASSDN: [
     {
-      title: "Spacenos",
+      title: "Passdn",
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Passdn is a platform that facilitates secure digital asset transfers and authentication solutions.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
+          Securing digital assets through innovative technology
         </div>
       ),
     },
     {
-      title: "Trailblazing",
+      title: "Implementation",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "Collaborated closely with the development team to define requirements and build React applications with a focus on component architecture and Redux state management. I successfully integrated payment gateway solutions and developed full-stack features using ReactJS, Tailwind CSS, NodeJS, and MongoDB. My contributions helped establish a secure, responsive platform that effectively handled digital asset transactions.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+          Full Stack Engineer
+        </div>
+      ),
+    },
+  ],
+  STELLARMIND: [
+    {
+      title: "StellarMind.ai",
+      description:
+        "StellarMind.ai is an innovative AI company focused on developing cutting-edge solutions for businesses and consumers.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Building the future of AI interactions
+        </div>
+      ),
+    },
+    {
+      title: "Development",
+      description:
+        "As a Full Stack Engineer, I leveraged the MERN stack to build and maintain scalable applications. I implemented critical frontend components while simultaneously developing robust backend services. My comprehensive approach to development ensured seamless integration between frontend and backend systems, resulting in high-performance applications with intuitive user experiences.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Full Stack Engineer
         </div>
       ),
     },
