@@ -1,7 +1,7 @@
 # Feelcoder
 
 <a href="https://feelcoder.vercel.app/">
-  <img alt="devfolio" src="./public/preview.png" />
+  <img alt="feelcoder" src="./public/preview.png" />
 </a>
 
 <p>
