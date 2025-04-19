@@ -106,7 +106,7 @@ export const PROJECTS = [
     description: "Bussiness networking and Event management web-app",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://bizcivitas.com",
-    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socketio"],
+    tech: ["nextjs", "chakra-ui", "nodejs", "mongodb", "socketio"],
   },
   {
     name: "Startup Grants",
@@ -115,7 +115,7 @@ export const PROJECTS = [
     description: "Portal to find and apply into government grants.",
     gradient: ["#4776E6", "#8E54E9"],
     url: "https://startupgrants.in",
-    tech: ["nextjs", "chakra-ui", "nodejs", "mongoDb", "socketio"],
+    tech: ["nextjs", "chakra-ui", "nodejs", "mongodb", "socketio"],
   },
   {
     name: "JadenX",
@@ -124,7 +124,7 @@ export const PROJECTS = [
     description: "Agency website using NextJS + Tailwind CSS ✍🏻",
     gradient: ["#F14658", "#DC2537"],
     url: "https://thejadenx.com/",
-    tech: ["typescript", "nextjs", "tailwindcss", "nodejs", "mongoDb"],
+    tech: ["typescript", "nextjs", "tailwindcss", "nodejs", "mongodb"],
   },
   {
     name: "QAonTop",
@@ -143,7 +143,7 @@ export const PROJECTS = [
       "Informative website for startup to showcase their products 🏎️",
     gradient: ["#142D46", "#2E4964"],
     url: "https://passdn.com",
-    tech: ["react", "tailwindcss", "nodejs", "mongoDb"],
+    tech: ["react", "tailwindcss", "nodejs", "mongodb"],
   },
   {
     name: "Earthlike",
@@ -170,7 +170,7 @@ export const PROJECTS = [
     description: "Creative website for Video and photo studio 🏎️",
     gradient: ["#654EA3", "#EAAFC8"],
     url: "https://visualvarta.com",
-    tech: ["react", "tailwindcss", "nodejs", "mongoDb"],
+    tech: ["react", "tailwindcss", "nodejs", "mongodb"],
   },
   {
     name: "Itolec Surfaces",
