@@ -133,7 +133,7 @@ export const PROJECTS = [
     description: "Service Agency website with 66+ optimised dynamic pages 🎙",
     gradient: ["#000066", "#6699FF"],
     url: "https://qaontop.com",
-    tech: ["Wordpress", "php", "mysql"],
+    tech: ["wordpress", "php", "mysql"],
   },
   {
     name: "Passdn",
@@ -152,7 +152,7 @@ export const PROJECTS = [
     description: "Ecommerce platform using wordpress. 🏎️",
     gradient: ["#11998E", "#38EF7D"],
     url: "https://www.earthlike.org/",
-    tech: ["Wordpress", "php", "mysql"],
+    tech: ["wordpress", "php", "mysql"],
   },
   {
     name: "Bynbe",
@@ -161,7 +161,7 @@ export const PROJECTS = [
     description: "Morden UI Ecommerce Store for Brand 🏎️",
     gradient: ["#FF416C", "#FF4B2B"],
     url: "https://bynbe.com/",
-    tech: ["Wordpress", "php", "mysql"],
+    tech: ["wordpress", "php", "mysql"],
   },
   {
     name: "Visual Varta",
@@ -179,7 +179,7 @@ export const PROJECTS = [
     description: "Informative website for Slab Company 🏎️",
     gradient: ["#1A2980", "#26D0CE"],
     url: "https://itolecsurfaces.com/",
-    tech: ["Wordpress", "php", "mysql"],
+    tech: ["wordpress", "php", "mysql"],
   },
 ];
 
